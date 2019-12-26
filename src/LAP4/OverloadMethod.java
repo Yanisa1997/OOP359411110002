@@ -14,7 +14,7 @@ public class OverloadMethod {
 //        System.out.println("Enter number 2:");
 //        int y = sc.nextInt();
 
-        System.out.println(plus(10,20);
+        System.out.println(plus(10,20));
         System.out.println(plus(10.0,20.0));
         System.out.println(plus(10.0,20));
 
