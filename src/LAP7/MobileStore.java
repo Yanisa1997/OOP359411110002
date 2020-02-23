@@ -17,13 +17,18 @@ public class MobileStore {
         System.out.println(mobile1.getPrice());
         System.out.println(mobile1.getSystem());
 
+        // change price
+        mobile1.setPrice(1500);
+        System.out.println(mobile1.toString());
+
         Mobile mobile2 = new Mobile
-        (2002, "Apple", "IPhone 11 Pro", 35900, "IOS13");
+                (2002, "Apple", "IPhone 11 Pro", 35900, "IOS13");
         System.out.println(mobile2.getID());
         System.out.println(mobile2.getBrand());
         System.out.println(mobile2.getGenera());
         System.out.println(mobile2.getPrice());
         System.out.println(mobile2.getSystem());
+
 
         Mobile mobile3 = new Mobile
                 (3003, "Samsung", "Galaxy E7", 11500, "Android 4.4");
