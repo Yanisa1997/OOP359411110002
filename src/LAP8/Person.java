@@ -2,11 +2,11 @@ package LAP8;
 
 public class Person {
 
-    // Attributes
+
+    //Attributes
     private String Pid;
     private String Name;
     private String DateOfBirth;
-
     //Constructor
     public Person(String pid, String name, String dateOfBirth) {
         Pid = pid;
@@ -23,9 +23,7 @@ public class Person {
         return Pid;
     }
 
-    public void setPid(String pid) {
-        Pid = pid;
-    }
+    public void setPid(String pid) { Pid = pid; }
 
     public String getName() {
         return Name;
